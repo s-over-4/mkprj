@@ -14,3 +14,14 @@ A C+GNU Make project skeleton generator.
 cd <project directory>
 mkprj <project name>
 ```
+
+## Resulting Filetree
+
+```
+.
+|- Makefile
+`- src
+   |- project-name.c
+   `- include
+      ` - project-name.h
+```
